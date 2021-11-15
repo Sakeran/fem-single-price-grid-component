@@ -4,13 +4,14 @@
 
 // Colors
 $colors: (
-  "custom-violet": hsl(320, 39%, 51%),
-  "gray": (
-    "300": hsl(0, 0%, 40%),
-    "400": hsl(0, 0%, 53%),
-    "500": hsl(0, 0%, 67%),
-    "600": hsl(0, 0%, 80%),
+  "white": hsl(0, 0%, 100%),
+  "cyan": (
+    "400": hsl(179, 62%, 43%),
+    "600": hsl(179, 48%, 54%),
   ),
+  "yellow": hsl(71, 73%, 54%),
+  "light-gray": hsl(204, 43%, 93%),
+  "grayish-blue": hsl(218, 22%, 67%),
 );
 
 // Breakpoints
@@ -21,61 +22,49 @@ $breakpoints: (
 
 // Font Families
 $font-families: (
-  "serif": serif,
-  "sans": sans-serif,
+  "default": (
+    "Karla",
+    sans,
+  ),
 );
 
 // Font Weights
-$font-weights: (400, 700, 900);
+$font-weights: (400, 700);
 
 // Font Sizes
 $font-sizes: (
   "base": (
-    "100": 0.79rem,
-    "200": 0.88rem,
-    "300": 1rem,
-    "400": 1.125rem,
-    "500": 1.266rem,
-    "600": 1.423rem,
-    "700": 1.602rem,
-    "800": 1.802rem,
-    "900": 2.027rem,
+    "300": 0.875rem,
+    "400": 1rem,
+    "500": 1.125rem,
+    "600": 1.25rem,
+    "700": 2rem,
   ),
   "35em": (
-    "400": 1.5rem,
-    "500": 2.5rem,
-    "600": 3.375rem,
+    "300": 1rem,
+    "600": 1.5rem,
   ),
 );
 
 // Margin/Padding Sizes
 $spacings: (
   "base": (
-    "100": 0.79rem,
-    "200": 0.88rem,
-    "300": 1rem,
-    "400": 1.125rem,
-    "500": 1.266rem,
-    "600": 1.423rem,
-    "700": 1.602rem,
-    "800": 1.802rem,
-    "900": 2.027rem,
+    "100": 0.25rem,
+    "400": 1rem,
+    "500": 1.125rem,
+    "600": 1.5rem,
+    "800": 1.5rem,
+  ),
+  "45em": (
+    "800": 2.5rem,
   ),
 );
 
 // Block Widths
 $block-widths: (
-  "min": min-content,
-  "max": max-content,
   "full": 100%,
-  "half": 50%,
-  "one-third": 33%,
-  "two-thirds": 66%,
 );
 
 // Letter Spacing
 
-$letter-spacing: (
-  "1": 1px,
-  "2": 5px,
-);
+$letter-spacing: ();
