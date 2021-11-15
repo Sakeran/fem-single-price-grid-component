@@ -1,0 +1,32 @@
+@use "../../abstracts/breakpoints";
+
+.price-grid-component {
+  max-width: 40rem;
+  border-radius: 0.5rem 0.5rem 0 0;
+
+  box-shadow: 0 1em 2em rgba(0, 81, 171, 0.15);
+
+  &__desc {
+    p.fs-500 {
+      font-size: 1rem;
+    }
+
+    p.fs-400 {
+      font-size: 0.875rem;
+    }
+
+    @include breakpoints.mq(tablet) {
+      p.fs-500 {
+        font-size: 1.125rem;
+      }
+
+      p.fs-400 {
+        font-size: 1rem;
+      }
+    }
+  }
+
+  &__feature-list {
+    font-size: 0.875rem;
+  }
+}

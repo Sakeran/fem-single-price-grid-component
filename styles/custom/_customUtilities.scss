@@ -1,1 +1,27 @@
+@use "../abstracts/breakpoints";
+
 // Project-Specific Utility Classes
+
+.op-50 {
+  opacity: 0.5;
+}
+
+.op-75 {
+  opacity: 0.75;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.full-split {
+  --gap: 0;
+
+  @include breakpoints.mq(tablet) {
+    flex-direction: row;
+
+    & > * {
+      flex-basis: 100%;
+    }
+  }
+}

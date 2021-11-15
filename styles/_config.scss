@@ -16,8 +16,7 @@ $colors: (
 
 // Breakpoints
 $breakpoints: (
-  "tablet": 35em,
-  "desktop": 45em,
+  "tablet": 40em,
 );
 
 // Font Families
@@ -38,24 +37,27 @@ $font-sizes: (
     "400": 1rem,
     "500": 1.125rem,
     "600": 1.25rem,
-    "700": 2rem,
-  ),
-  "35em": (
-    "300": 1rem,
-    "600": 1.5rem,
+    "700": 1.25rem,
+    "800": 2rem
+    ),
+    "35em": (
+      "300": 1rem,
+      "600": 1.5rem,
+      "700": 1.5rem,
   ),
 );
 
 // Margin/Padding Sizes
 $spacings: (
   "base": (
+    "0": 0,
     "100": 0.25rem,
     "400": 1rem,
     "500": 1.125rem,
     "600": 1.5rem,
     "800": 1.5rem,
   ),
-  "45em": (
+  "35em": (
     "800": 2.5rem,
   ),
 );

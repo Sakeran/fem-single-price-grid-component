@@ -1,41 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
-  <link rel="stylesheet" href="/styles.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet"> 
-  
-  <title>Frontend Mentor | Single Price Grid Component</title>
-</head>
-<body>
-  Join our community
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
 
-  30-day, hassle-free money back guarantee
+    <title>Frontend Mentor | Single Price Grid Component</title>
+  </head>
+  <body>
+    <main class="cover center">
+      <h1 class="sr-only">Frontend Mentor - Single Price Grid Component</h1>
 
-  Gain access to our full library of tutorials along with expert code reviews. 
-  Perfect for any developers who are serious about honing their skills.
+      <div class="center cover-primary" style="--center-padding: 2rem;">
+        <div class="price-grid-component bg-white">
+          <div
+            class="price-grid-component__desc pad-800 flow"
+            style="--flow-space: 0.75rem"
+          >
+            <h2 class="text-cyan-400 fs-700 fw-700 gap-bottom-600">
+              Join our community
+            </h2>
 
-  Monthly Subscription
+            <p class="text-yellow fs-500 fw-700">
+              30-day, hassle-free money back guarantee
+            </p>
 
-  &dollar;29 per month
+            <p class="text-grayish-blue fs-400 gap-top-300">
+              Gain access to our full library of tutorials along with expert
+              code reviews. Perfect for any developers who are serious about
+              honing their skills.
+            </p>
+          </div>
 
-  Full access for less than &dollar;1 a day
+          <div class="full-split flex-col" style="--flow-space: 1.125rem;">
+            <div class="pad-800 bg-cyan-400 text-white flow">
+              <h3 class="fs-500 fw-700">Monthly Subscription</h3>
+              <p class="flex align-center" style="--gap: 0.75rem;"><span class="fs-800 fw-700">&dollar;29</span> <span class="op-50">per month</span></p>
+              <p class="gap-top-100">Full access for less than &dollar;1 a day</p>
 
-  Sign Up
+              <button class="btn text-white fw-700 bg-yellow width-full text-center pad-400 gap-top-600">Sign Up</button>
+            </div>
 
-  Why Us
-
-  Tutorials by industry experts
-  Peer &amp; expert code review
-  Coding exercises
-  Access to our GitHub repos
-  Community forum
-  Flashcard decks
-  New videos every week
-</body>
+            <div class="bg-cyan-600 text-white flow pad-800">
+              <h3 class="fs-500 fw-700">Why Us</h3>
+              <ul role="list" class="price-grid-component__feature-list pad-0 op-75" style="line-height: 1.5;">
+                <li>Tutorials by industry experts</li>
+                <li>Peer &amp; expert code review</li>
+                <li>Coding exercises</li>
+                <li>Access to our GitHub repos</li>
+                <li>Community forum</li>
+                <li>Flashcard decks</li>
+                <li>New videos every week</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
